@@ -1,0 +1,30 @@
+table.scroll {
+   border-collapse: collapse; 
+	border-spacing: 0;
+   border: 2px solid black;
+	margin-bottom: 0px;		
+}
+table.scroll tbody, table.scroll thead { display: block; }
+table.scroll tbody {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+table.scroll thead tr th { 
+    height: 50px;
+	background: gray;
+    line-height: 30px;
+     text-align: centre;  
+}
+table.scroll tbody { border-top: 2px solid black; }
+
+tbody td, thead th {
+	border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+table.scroll tbody tr:hover{
+    background: Blue; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+}
+table.scroll tbody td:last-child, thead th:last-child {
+    border-right: none;
+}	

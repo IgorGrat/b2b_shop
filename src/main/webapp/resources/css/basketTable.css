@@ -1,0 +1,45 @@
+table.basketTable th:nth-child(1),table.basketTable td:nth-child(1) {
+text-align: center; 
+width: 30;
+}
+table.basketTable th:nth-child(2),table.basketTable td:nth-child(2) {
+text-align: center;  
+width: 70;
+}
+table.basketTable th:nth-child(3),table.basketTable td:nth-child(3) {
+text-align: center;  
+width: 120;
+}
+table.basketTable th:nth-child(4),table.basketTable td:nth-child(4) {
+width: 220;
+}
+table.basketTable th:nth-child(5),table.basketTable td:nth-child(5) {
+width: 60;
+}
+table.basketTable td:nth-child(5){text-align: right;}
+
+table.basketTable th:nth-child(6),table.basketTable td:nth-child(6) {
+width: 60;
+}
+table.basketTable td:nth-child(6){text-align: right;}
+table.basketTable th:nth-child(7),table.basketTable td:nth-child(7) {
+width: 60;
+}
+table.basketTable td:nth-child(7) {
+text-align: right;
+}
+
+table.basketTable th:nth-child(8) {
+width: 36;
+}
+table.basketTable td:nth-child(8) {
+text-align: center; 
+width: 20;
+}
+table.scroll thead tr th { 
+    height: 50px;
+	background: #E9967A;
+    line-height: 30px;
+     text-align: centre; 
+	  text-shadow:1px 1px 1px #fff;
+	}

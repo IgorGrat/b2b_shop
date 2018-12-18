@@ -1,0 +1,19 @@
+div.list{
+    width: 680px;
+    margin: 0 auto;
+    background-color: #dddddd
+}
+table.property tbody{
+	background:white;	
+}
+form.property{
+	margin:0;		
+	border: ridge;
+	border-color: #FA8072;
+	padding: 5px;
+	font-style: italic;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.verticalAlig{
+	vertical-align:bottom; 
+}

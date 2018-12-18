@@ -1,0 +1,57 @@
+.button_1 {
+	display: inline-block;
+	color: Maroon;
+	text-decoration: none;
+	padding: 4px 25px;
+	outline: none;
+	border-width: 2px 0;
+	border-style: solid none;
+	border-color: #FDBE33 #000 #D77206;
+	border-radius: 6px;
+	background: linear-gradient(#F3AE0F, #E38916) #E38916;
+	transition: 0.2s;
+} 
+.button_1:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; 
+}
+.button_1:active { background: linear-gradient(#f59500, #f5ae00) #f59500; 
+}
+
+.button_2{
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+.button_2:hover { background: rgb(53, 167, 110); 
+}
+.button_2:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.button_3 {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 2.5px;
+  line-height: 2.5px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+}
+.button_3:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}

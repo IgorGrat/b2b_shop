@@ -1,0 +1,4 @@
+tr.selected{
+    background: Blue; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+}

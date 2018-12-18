@@ -1,0 +1,92 @@
+div.list{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #E0FFFF;
+}
+table.stampTable th:nth-child(1),table.stampTable td:nth-child(1) {
+    text-align: center;
+    width: 30;
+}
+table.stampTable th:nth-child(2), table.stampTable td:nth-child(2) {
+    text-align: center;
+    width: 80;
+}
+table.stampTable th:nth-child(3), table.stampTable td:nth-child(3) {
+    text-align: center;
+    width: 85;
+}
+table.stampTable th:nth-child(4), table.stampTable td:nth-child(4) {
+     width: 85;
+	 text-align: center;
+}
+table.stampTable th:nth-child(5), table.stampTable td:nth-child(5) {
+    width: 60;
+}
+table.stampTable td:nth-child(5){text-align: right;
+}
+table.stampTable th:nth-child(6), table.stampTable td:nth-child(6) {
+    width: 60;
+}
+table.stampTable td:nth-child(6){text-align: center;}
+table.stampTable th:nth-child(7), table.stampTable td:nth-child(7){
+    width: 220;
+}
+table.stampTable td:nth-child(7) {
+text-align: left;
+}
+
+table.stampTable th:nth-child(8), table.stampTable td:nth-child(8) {
+    text-align: center;
+    width: 120;
+}
+table.stampTable th:nth-child(9), td:nth-child(9) {
+    text-align: center;
+    width: 80;
+}
+table.stampTable th:nth-child(10) {
+    width: 36;
+}
+table.stampTable td:nth-child(10) {
+    text-align: center;
+    width: 20;
+}
+
+
+table.goodsTable th:nth-child(1), td:nth-child(1) {
+    text-align: center;
+    width: 30;
+}
+table.goodsTable th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+    width: 70;
+}
+table.goodsTable th:nth-child(3), td:nth-child(3) {
+    text-align: center;
+    width: 200;
+}
+table.goodsTable th:nth-child(4), td:nth-child(4) {
+    width: 40;
+}
+table.goodsTable td:nth-child(4){text-align: right;}
+
+table.goodsTable th:nth-child(5), td:nth-child(5) {
+    width: 50;
+}
+table.goodsTable td:nth-child(5){text-align: right;}
+
+table.goodsTable th:nth-child(6), td:nth-child(6) {
+    width: 50;
+}
+table.goodsTable td:nth-child(6){text-align: right;}
+table.goodsTable th:nth-child(7), td:nth-child(7) {
+    width: 60;
+}
+table.goodsTable td:nth-child(7){text-align: center;}
+
+table.goodsTable th:nth-child(8) {
+    width: 36;
+}
+table.goodsTable td:nth-child(8) {
+    text-align: center;
+    width: 20;
+}
